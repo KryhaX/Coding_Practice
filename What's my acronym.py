@@ -1,4 +1,4 @@
-# Example
+print(".".join([ i for i in input() if i.isupper() and i.isalpha()]))# Example
 #Ask the user to enter the full meaning of an organization or concept and you'll provide the acronym to the user. For example:
 
 #Input -> As Soon As Possible. Output -> ASAP.
@@ -17,5 +17,5 @@ for i in full_meaning:
 
 print("You're acronimy of :\n{}\nis\n{}".format(full_meaning,(acronym[:-1])))
 
-
-
+# Or oneline
+print(".".join([ i for i in input("Write Full meaning ,and I'm gonna change it to acronym \n(New word should be a big letter and space ) : ") if i.isupper() and i.isalpha()]))
